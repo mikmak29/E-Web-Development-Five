@@ -17,6 +17,9 @@ module.exports = {
       colors: {
         accentColor: '#3EC290',
       },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],
