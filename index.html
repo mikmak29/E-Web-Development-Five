@@ -4,13 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figma</title>
 
+    <link rel="icon" href="./images/favicon/Figma logo.svg">
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 
 <body>
-    
+    <header class="relative w-screen h-auto bg-black z-10 md:flex md:justify-between md:items-center md:py-2 md:px-4">
+        <div class="w-full bg-black p-2 flex justify-between items-center md:p-0 md:w-fit">
+            <div class="w-auto h-10">
+                <img src="./images/favicon/Figma logo.svg" alt="Header Icon"
+                    class="size-full aspect-square object-cover">
+            </div>
+            <div class="flex items-center md:hidden">
+                <svg onclick="responsiveMenuBar()" class="cursor-pointer" width="28px" height="28px" stroke-width="1.7"
+                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#3EC290">
+                    <path d="M3 5H21" stroke="#3EC290" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 12H21" stroke="#3EC290" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 19H21" stroke="#3EC290" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <nav id="nav_list"
+            class="absolute -top-[200px] left-0 w-screen bg-accentColor -z-10 py-4 transform translate-y-0 transition-transform duration-500 ease-in-out md:static md:bg-transparent md:transition-none md:pr-10">
+            <ul
+                class="flex flex-col items-center gap-3 [&>li]:text-sm [&>li]:text-white [&>li]:font-karla [&>li]:font-light md:flex-row md:justify-end md:gap-10 [&>li]:lg:text-lg">
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Customers</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Sign in</a></li>
+            </ul>
+        </nav>
+        <button
+            class="hidden md:block w-[140px] bg-accentColor py-2 rounded-lg text-sm text-white font-karla lg:w-[170px] lg:text-lg">Sign
+            Up</button>
+    </header>
     <script src="./js/script.js"></script>
 </body>
 

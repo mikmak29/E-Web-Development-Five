@@ -12,7 +12,10 @@ module.exports = {
         mobileL: "425px"
       },
       fontFamily: {
-
+        karla: ['Karla', 'sans-serif']
+      },
+      colors: {
+        accentColor: '#3EC290',
       },
     },
   },
