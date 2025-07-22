@@ -1,0 +1,7 @@
+Responsive Section:
+
+Navigation-bar
+Hero-Section
+Section-1
+Section-2
+Sign Up & Log In Section
