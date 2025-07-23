@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma</title>
+
+    <link rel="icon" href="./images/favicon/Figma logo.svg">
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body>
+    <section class="w-screen h-[80dvh] px-4 flex flex-col justify-center items-center">
+        <h1 class="text-lg font-karl">Try Figma for free</h1>
+        <div class="w-full pt-10 space-y-5">
+            <div class="max-w-[300px] mx-auto">
+                <button
+                    class="group w-full py-4 border border-[#D4D4D4] rounded-md flex justify-center items-center gap-2 shadow drop-shadow-md">
+                    <img src="./images/icons/google.svg" alt="Sign up Google Icon"
+                        class="size-6 scale-50 transform transition-transform duration-500 ease-in-out group-hover:scale-100">
+                    <h1 class="text-sm font-karla">Sign up
+                        with Google</h1>
+            </div>
+            </button>
+            <h1 class="font-karla text-center">or</h1>
+            <form action="LogIn">
+                <div class="max-w-[300px] mx-auto flex flex-col gap-3">
+                    <input
+                        class="w-full py-4 border border-[#D4D4D4] rounded-md font-karla pl-3 placeholder:text-[#E1E1E1]"
+                        type="text" name="email" id="email" placeholder="Email">
+                    <input
+                        class="w-full py-4 border border-[#D4D4D4] rounded-md font-karla pl-3 placeholder:text-[#E1E1E1]"
+                        type="text" name="password" id="password" placeholder="Password">
+                    <button class="w-full bg-[#3EC290] py-4 rounded-md text-white">Create Acount...</button>
+                </div>
+            </form>
+            <p class="text-[#72AFC5] text-xs font-karl text-center pt-3 lg:text-sm">Sign up with SAML SSO</p>
+            <div class="text-xs text-center lg:text-sm">
+                <span class="font-karla">Already have an account?</span>
+                <span class="text-[#72AFC5]font-karla">Sign in</span>
+            </div>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
