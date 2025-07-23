@@ -633,28 +633,12 @@ video {
   height: 2.5rem;
 }
 
-.h-\[80dvh\]{
-  height: 80dvh;
+.h-\[93dvh\]{
+  height: 93dvh;
 }
 
 .h-auto{
   height: auto;
-}
-
-.h-screen{
-  height: 100vh;
-}
-
-.h-\[90dvh\]{
-  height: 90dvh;
-}
-
-.h-\[95dvh\]{
-  height: 95dvh;
-}
-
-.h-\[93dvh\]{
-  height: 93dvh;
 }
 
 .max-h-\[500px\]{
@@ -714,10 +698,6 @@ video {
   cursor: pointer;
 }
 
-.cursor-auto{
-  cursor: auto;
-}
-
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -748,6 +728,10 @@ video {
 
 .gap-3{
   gap: 0.75rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .space-y-3 > :not([hidden]) ~ :not([hidden]){
@@ -1260,6 +1244,11 @@ video {
 .\[\&\>li\]\:text-sm>li{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.\[\&\>li\]\:text-lg>li{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .\[\&\>li\]\:font-light>li{
